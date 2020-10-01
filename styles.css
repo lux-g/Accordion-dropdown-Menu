@@ -38,8 +38,14 @@
     background-color:#EEEEEE;
     transition: all 200ms ease-in-out;
 }
-.accordion-content p {
+.accordion-content ul {
+    list-style: none;
+}
+.accordion-content li {
     margin: 10px 0px;
+}
+.accordion-content li a {
+    text-decoration: none;
     color: #2D46B9;
     font-size: 18px;
     font-weight: 700;
